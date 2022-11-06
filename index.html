@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            Kérem az első számot: <br><input type="number" id="szam1"><br>
+            Kérem az második számot: <br><input type="number" id="szam2"><br>
+
+            <input type="button" value="+" onclick="osszead()">
+            <input type="button" value="-" onclick="kivon()">
+            <input type="button" value="*" onclick="szoroz()">
+            <input type="button" value="/" onclick="oszt()">
+
+            <h1>Eredmény</h1>
+            <br>
+            <span id="eredmeny"></span>
+        </fieldset>
+    </form>
+</body>
+
+</html>
